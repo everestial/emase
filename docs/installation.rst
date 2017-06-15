@@ -38,14 +38,14 @@ To avoid confict with python3
 
 To avoid conflicts among dependencies, we highly recommend using conda virtual environment:
 
-$ conda create -n emase jupyter python=2.7
-$ source activate emase
+    $ conda create -n emase jupyter python=2.7
+    $ source activate emase
 
 Once g2gtools virtual environment is created and activated, your shell prompt will show '(g2gtools)' at the beginning to specify what virtual environment you are currently in. Now please type the following and install g2gtools:
 
-(emase) $ conda install -c kbchoi emase
+    (emase) $ conda install -c kbchoi emase
 
 That's all! We note that you can go out from g2gtools virtual environment anytime once you are done using g2gtools:
 
-(emase) $ source deactivate
+    (emase) $ source deactivate
 
